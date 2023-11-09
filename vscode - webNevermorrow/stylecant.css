@@ -1,0 +1,54 @@
+body{
+    background-image: url("Background.jpg");
+    font-family: 'Slabo 27px';
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 7%;
+}
+.recover-box{
+    opacity: 0.8;
+    width: 380px;
+    height: 440px;
+    margin: auto;
+    background-color: rgb(159, 159, 159);
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+form{
+    text-align: center;
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+form label input{
+    padding: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 180px;
+  height: 100px;
+}
+form input{
+    margin-top: 5px;
+    font-family: 'Slabo 27px';
+}
+
+input[type=button]{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 12px;
+    border: 1px solid black;
+    background-color: gray;
+    margin-left: 10px;
+    border-radius: 2px;
+}
